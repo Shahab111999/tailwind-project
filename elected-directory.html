@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Humbultitan</title>
+</head>
+
+<body>
+    <section class="max-w-screen-xl mx-auto mb-8">
+        <div class="container w-full m-auto">
+            <h1 class="font-regular text-center text-[40px] md:text-[60px] text-[#033148]">
+                The Humble Voter<span class="text-lime-600">.</span>
+            </h1>
+        </div>
+    </section>
+
+    <section class="mx-auto py-4 pt-12">
+        <div class="container w-10/12 mx-auto max-w-screen-xl">
+            <div class="flex flex-wrap mx-4 mb-10 m-auto">
+                <div class="flex flex-col">
+                    <h2 class="font-bold text-[40px] md:text-[55px] leading-[50px] mb-2 text-[#023a51]">The Elected Directory</h2>
+                   
+                </div>
+                <div class="container w-12/12 mx-auto  max-w-screen-xl rounded-lg mt-[0.5rem]">
+                    <h6  class="font-bold text-[28px] lg:text-[28px] leading-[47px]  my-4 text-[#023a51]">Filters</h6>
+                    <div class="flex flex-wrap mb-10 mt-[0.5rem]  justify-between  items-center m-auto">
+                        <button class="bg-[#023a51] md:w-[18%] w-[45%] py-[20px]  rounded-[5px] mt-6 mx-[5px] font-bold text-[20px] leading-[25px] text-[#fff] ">Fedral </button>
+                        <button class="bg-[#fff] md:w-[18%] w-[45%] py-[20px]  rounded-[5px] mt-6 mx-[5px] font-bold text-[20px] leading-[25px] text-[#023a51] border-yellow">State </button>
+                       
+                        <button class="bg-[#fff] md:w-[18%] w-[45%] py-[20px]  rounded-[5px] mt-6 mx-[5px] font-bold text-[20px] leading-[25px] text-[#023a51] border-yellow">Country</button>
+                        <button class="bg-[#fff] md:w-[18%] w-[45%] py-[20px]  rounded-[5px] mt-6 mx-[5px] font-bold text-[20px] leading-[25px] text-[#023a51] border-yellow">Office</button>
+                        <button class="bg-[#fff] md:w-[18%] w-[45%] py-[20px]  rounded-[5px] mt-6 mx-[5px] font-bold text-[20px] leading-[25px] text-[#023a51] border-yellow">Filter</button>
+                        
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- <section class="mx-auto py-4 pt-12">
+        <div class="container w-10/12 mx-auto max-w-screen-xl">
+            <div class="w-full md:w-3/3 shadow p-5 rounded-lg bg-white m-auto">
+                
+              
+                  <div class="flex items-center justify-between mt-4">
+                    <p class="font-bold text-[20px] leading-[30px] text-[#023a51] ">
+                      Filters
+                    </p>
+              
+                    <button class="px-4 py-2 bg-[#efeded] hover:bg-gray-200 text-gray-800 text-sm font-bold text-[20px] leading-[30px] text-[#023a51] rounded-md">
+                      Reset Filter
+                    </button>
+                  </div>
+              
+                  <div>
+                    <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 mt-4">
+                      <select class="px-4 py-3 w-full rounded-md bg-[#efeded] border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm font-bold text-[20px] text-[#023a51]">
+                        <option value="" >Fedral</option>
+                        <option value="for-rent">ABCD</option>
+                        <option value="for-sale">EFG</option>
+                      </select>
+              
+                      <select class="px-4 py-3 w-full rounded-md bg-[#efeded] border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm font-bold text-[20px] text-[#023a51]">
+                        <option value="" >State</option>
+                        <option value="fully-furnished">HIJ</option>
+                        <option value="partially-furnished">KLM</option>
+                        <option value="not-furnished">NOP</option>
+                      </select>
+              
+                      <select class="px-4 py-3 w-full rounded-md bg-[#efeded] border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm font-bold text-[20px] text-[#023a51]">
+                        <option value="" class="">Country</option>
+                        <option value="1000">QRS</option>
+                        <option value="2000">TUV</option>
+                        <option value="3000">YX</option>
+                        <option value="4000">YZ</option>
+                      </select>
+              
+                      <select class="px-4 py-3 w-full rounded-md bg-[#efeded] border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm font-bold text-[20px] text-[#023a51]">
+                        <option value="">Office</option>
+                        <option value="200">Filter</option>
+                        <option value="400">Filter</option>
+                        <option value="600">Filter</option>
+                        <option value="800 sq.ft">Filter</option>
+                        <option value="1000 sq.ft">Filter</option>
+                        <option value="1200 sq.ft">Filter</option>
+                      </select>
+              
+                      <select class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm">
+                     <option value="">Filter</option>
+                        <option value="1">Filter </option>
+                    <option value="2">Filter</option>
+                        <option value="3"> Filter</option>
+                        <option value="4"> Filter</option>
+                        <option value="5"> Filter</option>
+                      </select> 
+              
+                       <select class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm">
+                        <option value="">Bathrooms</option>
+                        <option value="1">1 bathroom</option>
+                        <option value="2">2 bathrooms</option>
+                        <option value="3">3 bathrooms</option>
+                        <option value="4">4 bathrooms</option>
+                        <option value="5">5 bathrooms</option>
+                      </select>
+              
+                      <select class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm">
+                        <option value="">Bathrooms</option>
+                        <option value="1">1 space</option>
+                        <option value="2">2 space</option>
+                        <option value="3">3 space</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section> -->
+
+    
+
+
+
+    <section class="mx-auto ">
+        <div class="container w-10/12 mx-auto max-w-screen-xl">
+            <div class="flex flex-wrap mx-4 mb-10 m-auto">
+
+
+                <div class="container w-12/12 mx-auto  max-w-screen-xl rounded-lg">
+                   
+                    <div class="flex flex-wrap mx-4 mb-10 m-auto justify-between">
+                       
+                        <div class="w-[100%] sm:w-[100%] md:w-[100%] lg:w-6/12 mt-10 ">
+
+                            <div>
+                                <h4 class="font-bold text-[28px] lg:text-[35px] xl:text-[3rem] leading-[47px]  text-[#023a51] mt-4"> President </h4>
+                            </div>
+                            <div class="flex justify-between items-center flex-col sm:flex-row">
+                                <img src="./images/PLACE-HOLDER-600x348.jpg" alt="" class="sm:w-[45%] w-[100%] h-[200px] m-auto rounded-lg object-cover mt-4">
+                                <ul class="bg-[#e0ecf0] sm:w-[45%] w-[100%] m-auto h-[200px] flex flex-col justify-center items-center rounded-lg mt-4">
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-[100%] sm:w-[100%] md:w-[100%] lg:w-6/12 mt-10 ">
+
+                            <div>
+                                <h4 class="font-bold text-[28px] lg:text-[35px] xl:text-[3rem] leading-[47px] text-[#023a51] mt-4"> Vice President</h4>
+                            </div>
+                            <div class="flex justify-between items-center flex-col sm:flex-row">
+                                <img src="./images/PLACE-HOLDER-600x348.jpg" alt="" class="sm:w-[45%] w-[100%] h-[200px] m-auto rounded-lg object-cover mt-4">
+                                <ul class="bg-[#e0ecf0] sm:w-[45%] w-[100%] m-auto h-[200px] flex flex-col justify-center items-center rounded-lg mt-4">
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-[100%] sm:w-[100%] md:w-[100%] lg:w-6/12  mt-10 ">
+
+                            <div>
+                                <h4 class="font-bold text-[28px] lg:text-[35px] xl:text-[3rem] leading-[47px]  text-[#023a51] mt-4"> U.S Senetor</h4>
+                            </div>
+                            <div class="flex justify-between items-center flex-col sm:flex-row">
+                                <img src="./images/PLACE-HOLDER-600x348.jpg" alt="" class="sm:w-[45%] w-[100%] h-[200px] m-auto rounded-lg object-cover mt-4">
+                                <ul class="bg-[#e0ecf0] sm:w-[45%] w-[100%] m-auto h-[200px] flex flex-col justify-center items-center rounded-lg mt-4">
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-[100%] sm:w-[100%] md:w-[100%] lg:w-6/12 mt-10 ">
+
+                            <div>
+                                <h4 class="font-bold text-[28px] lg:text-[35px] xl:text-[3rem] leading-[47px] text-[#023a51] mt-4"> Governer</h4>
+                            </div>
+                            <div class="flex justify-between items-center flex-col sm:flex-row">
+                                <img src="./images/PLACE-HOLDER-600x348.jpg" alt="" class="sm:w-[45%] w-[100%] h-[200px] m-auto rounded-lg object-cover mt-4">
+                                <ul class="bg-[#e0ecf0] sm:w-[45%] w-[100%] m-auto h-[200px] flex flex-col justify-center items-center rounded-lg mt-4">
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-[100%] sm:w-[100%] md:w-[100%] lg:w-6/12  mt-10 ">
+
+                            <div>
+                                <h4 class="font-bold text-[28px] lg:text-[35px] xl:text-[3rem] leading-[47px] mt-4 text-[#023a51]"> Governer</h4>
+                            </div>
+                            <div class="flex justify-between items-center flex-col sm:flex-row">
+                                <img src="./images/PLACE-HOLDER-600x348.jpg" alt="" class="sm:w-[45%] w-[100%] h-[200px] m-auto rounded-lg object-cover mt-4">
+                                <ul class="bg-[#e0ecf0] sm:w-[45%] w-[100%] m-auto h-[200px] flex flex-col justify-center items-center rounded-lg mt-4">
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-[100%] sm:w-[100%] md:w-[100%] lg:w-6/12 mt-10 ">
+
+                            <div>
+                                <h4 class="font-bold text-[28px] lg:text-[35px] xl:text-[3rem] leading-[47px] mt-4 text-[#023a51]"> Governer</h4>
+                            </div>
+                            <div class="flex justify-between items-center flex-col sm:flex-row">
+                                <img src="./images/PLACE-HOLDER-600x348.jpg" alt="" class="sm:w-[45%] w-[100%] h-[200px] m-auto rounded-lg object-cover mt-4">
+                                <ul class="bg-[#e0ecf0] sm:w-[45%] w-[100%] m-auto h-[200px] flex flex-col justify-center items-center rounded-lg mt-4">
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    <li class="font-regular text-[26px] leading-[35px] text-[#023a51] ">Link</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+   
+
+    <section class="mx-auto py-4 pt-16">
+        <div class="container w-10/12 mx-auto max-w-screen-xl">
+            <div class="flex   flex-wrap mx-4 mb-10 m-auto justify-between gap-y-[25px]">
+                <div class="w-12/12 md:w-[48%]">
+                    <h2 class="font-bold text-[28px] lg:text-[35px] xl:text-[3rem] leading-[47px]  my-4 text-[#023a51]">Elected Directory</h2>
+                    <img src="./images/PLACE-HOLDER-600x348.jpg" alt="" class="w-[100%] rounded-[20px]" />
+                    <p class="w-[100%] md:w-[100%] mt-6 font-regular text-[22px] leading-[34px] text-[#59667d]">
+                        Discover elected representatives in each state and county of the
+                        United states
+                    </p>
+                </div>
+                <div class="w-12/12 md:w-[48%]">
+                    <h2 class="font-bold text-[28px] lg:text-[35px] xl:text-[3rem] leading-[47px] my-4 text-[#023a51]">Dictionary of Politics</h2>
+                    <img src="./images/PLACE-HOLDER-600x348.jpg" alt="" class="w-[100%] rounded-[20px]" />
+                    <p class="w-[100%] md:w-[100%] mt-6 font-regular  text-[22px] leading-[34px] text-[#59667d]">
+                        While you decide who best represents you, we've put together a
+                        platform that seeks to clear up the noise
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+    <section class="mx-auto py-4 pt-16">
+        <div class="container w-10/12 mx-auto max-w-screen-xl ">
+            <div class="flex flex-wrap mx-4 mb-10 m-auto ">
+              
+                <h2 class="font-bold text-[35px] md:text-[3rem] leading-[47px] leading-[47px] mb-8 text-[#023a51]">Discover elected representatives in each state</h2>
+
+                <div class="container w-12/12 mx-auto  max-w-screen-xl rounded-lg  rounded-b-none">
+                    <h5 class="font-bold text-[18px] mt-12 ml-2 leading-[27px] text-[#023a51]">Browse By State</h5>
+                </div>
+
+
+
+                <div class="container w-12/12 mx-auto  max-w-screen-xl rounded-lg rounded-t-none">
+                  <div class="flex flex-wrap mx-4 mb-10 m-auto justify-start md:justify-between ">
+
+                      <div class="w-12/12 ">
+
+                          <ul class="flex flex-wrap ">
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                              
+                          </ul>
+                      </div>
+                     
+
+                  </div>
+
+              </div>
+
+
+
+                <div class="container w-12/12 mx-auto  max-w-screen-xl rounded-lg rounded-t-none">
+                    <div class="flex flex-wrap mx-4 mb-10 m-auto justify-start md:justify-between ">
+
+                        <div class="w-12/12: w-[25%] md:w-2/12 line-set">
+
+                            <ul>
+                                <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out ">1qAlaska</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]  transition duration-[2s] ease-out ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]  transition duration-150 ease-out ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]  transition duration-150 ease-out ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]  transition duration-150 ease-out ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]  transition duration-150 ease-out  ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]  transition duration-150 ease-out  ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]  transition duration-150 ease-out  ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]  transition duration-150 ease-out  ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]  transition duration-150 ease-out  ">California</li>
+                            </ul>
+                        </div>
+                        <div class="w-12/12 md:w-2/12 w-[25%] line-set">
+                            <ul>
+                                <li class="mt-12 font-bold-2 text-[1rem] style-heading text-[#3b3a3a] leading-[27px]">Alaska</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                            </ul>
+
+                        </div>
+                        <div class="w-12/12 md:w-2/12 w-[25%] line-set">
+                            <ul>
+                                <li class="mt-12 font-bold-2 text-[1rem] style-heading text-[#3b3a3a] leading-[27px]">Alaska</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                            </ul>
+                        </div>
+                        <div class="w-12/12 md:w-2/12 w-[25%] line-set">
+                            <ul>
+                                <li class="mt-12 font-bold-2 text-[1rem] style-heading text-[#3b3a3a] leading-[27px]">Alaska</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px] ">California</li>
+                            </ul>
+                        </div>
+                        <div class="w-12/12 md:w-2/12 w-[25%] line-set">
+                            <ul>
+                                <li class="mt-12 font-bold-2 text-[1rem] style-heading text-[#3b3a3a] leading-[27px] ">AAlaska</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]  ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]   ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]  ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]   ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]  ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]   ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]   ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]   ">California</li>
+                                <li class="font-bold-2 text-[1rem] mt-8 style-heading text-[#3b3a3a] leading-[27px]  ">California</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                
+                <div class="container w-12/12 mx-auto  max-w-screen-xl rounded-lg  rounded-b-none">
+                  <h5 class="font-bold text-[18px] mt-12 ml-2 leading-[27px] text-[#023a51]">Browse By Country</h5>
+              </div>
+
+
+
+              <div class="container w-12/12 mx-auto  max-w-screen-xl rounded-lg rounded-t-none">
+                <div class="flex flex-wrap mx-4 mb-10 m-auto justify-start md:justify-between ">
+
+                    <div class="w-12/12 ">
+
+                        <ul class="flex flex-wrap ">
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            <li class="mt-12 font-bold-2 text-[1rem] style-heading transition duration-150 ease-out w-[33.3%] md:w-[20%]">1qAlaska</li>
+                            
+                        </ul>
+                    </div>
+                   
+
+                </div>
+
+            </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="mx-auto py-4 pt-16">
+        <div class="container w-10/12 mx-auto max-w-screen-xl ">
+            <div class="flex flex-wrap mx-4 mb-10 m-auto ">
+              
+               
+
+                <div class="container w-[100%] lg:w-8/12 mx-auto bg-[#023a51] shadow-1 max-w-screen-xl rounded-lg relative flex flex-col items-center justify-center">
+                   
+                    <i class="fa-solid fa-xmark absolute right-[3%] top-[1%] md:top-[5%] text-[#d7d7d7] text-[30px]"></i>
+                    <img src="./images/PLACE-HOLDER-600x348.jpg" alt="" class="w-[80%] md:w-[50%] mt-10 rounded-lg">
+                    <h2 class="font-bold text-[25px] md:text-[30px] leading-[35px] md:leading-[48px] text-[#fff] mt-10 text-center">Welcome to the Election Center</h2>
+                    <p class="font-regular text-[15px] md:text-[20px] leading-[28px] md:leading-[34px] text-[#fff] mt-4 md:mt-10 mx-8">The Election Center is your personalized platform where you can plan your ballot check your registration and even find your polling place. It's giving you everything you need to vote with confidence.</p>
+<button class="bg-[#15D16C] py-[10px] px-[30px] rounded-[1.5rem] text-[#fff] font-bold-2 mt-10 mb-10">View Election Center</button>
+                    </div>
+                    </div>
+                    </div>
+                    </section>
+
+
+                    <section class="mx-auto py-4 pt-16">
+                        <div class="container w-12/12 mx-auto max-w-screen-xl ">
+                            <div class="flex flex-wrap mx-4 mb-10 m-auto ">
+                               
+                                <div class="container w-12/12 mx-auto  max-w-screen-xl rounded-lg relative flex justify-between items-center flex-col sm:flex-row">
+                                  
+                                    <div class="w-[90%] sm:w-[75%] bg-[#f7f7f7]  border-ea">
+                                        <div class=" bg-[#f7f7f7] flex flex-col justify-center items-center border-ea-bot ">
+                                        
+                                            <p class="font-regular pt-2 text-[10px] text-[#023a51]">WELCOME TO THE</p>
+                                            <h3 class="font-bold text-[35px] md:text-[2rem] leading-[47px] mb-1 text-[#023a51]">Election Center</h3>
+                                            <p class="text-[#023a51] font-regular mb-4 text-[10px] ">Every vote matters. We're here to help you inform guys.</p>
+        
+                                        </div>
+                                        <div class="flex justify-around items-center my-4 flex-wrap  gap-y-[20px] pb-[15px]">
+                                            <div class="w-[90%] sm:w-[45%] lg:w-[30%] h-[200px] pt-8  px-2 bg-[#fff] mt-4 flex flex-col justify-center cards-shadow" > 
+                                                <i class="fas fa-user text-[#2d5672] text-[20px]"></i>
+                                                <h5 class="font-bold text-[12px] pt-2 leading-[15px] text-[#2d5672]">Elected And Appointed Officials</h5>
+                                                <p class="text-[#b3bbc2] pt-2 font-regular text-[10px] text-[#a39c98] ">View who currently represents you at all level of governments</p>
+                                            </div>
+                                            <div class="w-[90%] sm:w-[45%] lg:w-[30%] h-[200px] pt-8  px-2 bg-[#fff] mt-4 flex flex-col justify-center cards-shadow" > 
+                                                <i class="fas fa-user text-[#2d5672] text-[20px]"></i>
+                                                <h5 class="font-bold text-[12px] pt-2 leading-[15px] text-[#2d5672]">Find out how to vote</h5>
+                                                <p class="text-[#b3bbc2] pt-2 font-regular text-[10px] text-[#a39c98] pb-[18px]">Set a time, date, go to address. </p>
+                                            </div>
+                                            <div class="w-[90%] sm:w-[45%] lg:w-[30%] h-[200px] pt-8 px-2 bg-[#fff] mt-4 flex flex-col justify-center cards-shadow"> 
+                                                <i class="fas fa-user text-[#2d5672] text-[20px]"></i>
+                                                <h5 class="font-bold text-[12px] pt-2 leading-[15px] text-[#2d5672]">Get Involved</h5>
+                                                <p class="text-[#b3bbc2] pt-2 font-regular text-[10px] text-[#a39c98] ">Help your community vote informed with BallotReady</p>
+                                            </div>
+                                            <div class="w-[90%] sm:w-[45%] lg:w-[30%] h-[200px] pt-8  px-2 bg-[#fff] mt-4 flex flex-col justify-center cards-shadow" > 
+                                                <i class="fas fa-user text-[#2d5672] text-[20px]"></i>
+                                                <h5 class="font-bold text-[12px] pt-2 leading-[15px] text-[#2d5672]">Contribute</h5>
+                                                <p class="text-[#b3bbc2] pt-2 font-regular text-[10px] text-[#a39c98] ">Support BallotReady's mission to promote an active and informed electorate.</p>
+                                            </div>
+                                            <div class="w-[90%] sm:w-[45%] lg:w-[30%] h-[200px] pt-8  px-2 bg-[#ececec] mt-4 flex flex-col justify-center relative cards-shadow" > 
+                                                <i class="fas fa-user text-[#2d5672] text-[20px]"></i>
+                                                <h5 class="font-bold text-[12px] pt-2 leading-[15px] text-[#2d5672]">Reasearch Your Ballot</h5>
+                                                <p class="text-[#b3bbc2] pt-2 font-regular text-[10px] text-[#a39c98] ">View who currently represents you at all level of governments</p>
+                                                <p class="text-[#b3bbc2] pt-2 font-regular text-[10px] text-[#a39c98] absolute bottom-[0%]"><i>Available when there is an upcoming elections</i></p>
+                                            </div>
+                                            <div class="w-[90%] sm:w-[45%] lg:w-[30%] h-[200px] pt-8  px-2 bg-[#ececec] mt-4 flex flex-col justify-center relative cards-shadow" > 
+                                                <i class="fas fa-user text-[#2d5672] text-[20px]"></i>
+                                                <h5 class="font-bold text-[12px] pt-2 leading-[15px] text-[#2d5672]">Check Registration</h5>
+                                                <p class="text-[#b3bbc2] pt-2 font-regular text-[10px] text-[#a39c98] ">View who currently represents you at all level of governments</p>
+                                                <p class="text-[#b3bbc2] pt-2 font-regular text-[10px] text-[#a39c98] absolute bottom-[0%]"><i>Available when there is an upcoming elections</i></p>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="flex justify-around items-center my-4 flex-wrap md:flex-row flex-col ">
+                                            <div class="w-[80%] md:w-[30%] h-[200px] pt-8  px-2 bg-[#fff] mt-4 flex flex-col justify-center cards-shadow" > 
+                                                <i class="fas fa-user text-[#2d5672] text-[20px]"></i>
+                                                <h5 class="font-bold text-[12px] pt-2 leading-[15px] text-[#2d5672]">Contribute</h5>
+                                                <p class="text-[#b3bbc2] pt-2 font-regular text-[10px] text-[#a39c98] ">Support BallotReady's mission to promote an active and informed electorate.</p>
+                                            </div>
+                                            <div class="w-[80%] md:w-[30%] h-[200px] pt-8  px-2 bg-[#ececec] mt-4 flex flex-col justify-center relative cards-shadow" > 
+                                                <i class="fas fa-user text-[#2d5672] text-[20px]"></i>
+                                                <h5 class="font-bold text-[12px] pt-2 leading-[15px] text-[#2d5672]">Reasearch Your Ballot</h5>
+                                                <p class="text-[#b3bbc2] pt-2 font-regular text-[10px] text-[#a39c98] ">View who currently represents you at all level of governments</p>
+                                                <p class="text-[#b3bbc2] pt-2 font-regular text-[10px] text-[#a39c98] absolute bottom-[0%]"><i>Available when there is an upcoming elections</i></p>
+                                            </div>
+                                            <div class="w-[80%] md:w-[30%] h-[200px] pt-8  px-2 bg-[#ececec] mt-4 flex flex-col justify-center relative cards-shadow" > 
+                                                <i class="fas fa-user text-[#2d5672] text-[20px]"></i>
+                                                <h5 class="font-bold text-[12px] pt-2 leading-[15px] text-[#2d5672]">Check Registration</h5>
+                                                <p class="text-[#b3bbc2] pt-2 font-regular text-[10px] text-[#a39c98] ">View who currently represents you at all level of governments</p>
+                                                <p class="text-[#b3bbc2] pt-2 font-regular text-[10px] text-[#a39c98] absolute bottom-[0%]"><i>Available when there is an upcoming elections</i></p>
+                                            </div>
+                                            
+                                        </div> -->
+                                    </div>
+                                    <div class="sm:w-[25%] w-[90%]  h-[100%] border-ea border-ea-left">
+
+                                        <p class="text-[#b3bbc2] pt-2 font-regular text-[10px] text-[#a39c98]  pl-2 border-ea-bot" >Spread the word. Every person who shares help us reach three more voters. </p>
+                                    <div class="flex flex-wrap justify-start gap-[10%] mt-4 ml-2">
+                                        <i class="fa-brands fa-twitter bg-[#55a4ff] p-[10px] rounded-full text-[#fff]"></i>
+                                        <i class="fa-brands fa-facebook-f bg-[#55a4ff] py-[10px] px-[12px] rounded-full text-[#fff]"></i>
+                                        <i class="fa-solid fa-envelope bg-[#a660e5] p-[10px] rounded-full text-[#fff]"></i>
+
+                                    </div>
+                                    </div>
+                  
+                                </div>
+                  
+                            </div>
+                  
+                        </div>
+                  
+                    </section>                
+
+                    
+
+                    <section class="mx-auto py-4 pt-16">
+                        <div class="container w-10/12 mx-auto max-w-screen-xl">
+                            <div class="flex flex-wrap mx-4 mb-10 m-auto">
+                                <div class="w-12/12 md:w-12/12 relative flex items-center justify-center m-auto">
+                                    <img src="./images/arrow.png" alt="" class="w-[100%] h-[200px]">
+                                                    
+                                </div>
+                                    
+                            </div>
+                                    
+                        </div>
+                                
+                    </section>
+
+
+
+                    <section class="mx-auto py-4 pt-16 bg-[#efeded] ">
+                        <div class="container w-10/12 mx-auto max-w-screen-xl ">
+                            <div class="flex flex-wrap mx-4 mb-10 m-auto ">
+                                <div class="container w-12/12 mx-auto  max-w-screen-xl rounded-lg bg-[#fff] ">
+                                    <h4 class="font-bold text-[36px] leading-[47px] text-[#023a51] my-8 ml-4">No Upcomming Election Messages</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="container w-10/12 mx-auto max-w-screen-xl ">
+                            <div class="flex flex-wrap mx-4 mb-10 m-auto justify-between ">
+                                <div class="container w-12/12 sm:w-[45%] lg:w-[31%] mx-auto  max-w-screen-xl rounded-lg bg-[#fff] pt-4 mt-8">
+                                    <img src="./images/PLACE-HOLDER-600x348.jpg" alt="" class="w-[90%] object-cover rounded-lg m-auto">
+                                    <h4 class="font-bold text-[20px] leading-[30px] my-8 text-[#023a51] mx-6 ">What else can we offer based
+                                        on the options above ?</h4>
+                                </div>
+                                <div class="container w-12/12 sm:w-[45%] lg:w-[31%] mx-auto  max-w-screen-xl rounded-lg bg-[#fff] pt-4 mt-8">
+                                    <img src="./images/PLACE-HOLDER-600x348.jpg" alt="" class="w-[90%] object-cover rounded-lg m-auto">
+                                    <h4 class="font-bold text-[20px] leading-[30px] my-8 text-[#023a51] mx-6  ">Elected Directory</h4>
+                                </div>
+                                <div class="container w-12/12 sm:w-[45%] lg:w-[31%] mx-auto  max-w-screen-xl rounded-lg bg-[#fff] pt-4 mt-8">
+                                    <img src="./images/PLACE-HOLDER-600x348.jpg" alt="" class="w-[90%] object-cover rounded-lg m-auto">
+                                    <h4 class="font-bold text-[20px] leading-[30px] my-8 text-[#023a51] mx-6  mx-6 ">Politics Dictionary</h4>
+                                </div>
+                                <div class="container w-12/12 sm:w-[45%] lg:w-[31%] mx-auto  max-w-screen-xl rounded-lg bg-[#fff] pt-4 mt-8">
+                                    <img src="./images/PLACE-HOLDER-600x348.jpg" alt="" class="w-[90%] object-cover rounded-lg m-auto">
+                                    <h4 class="font-bold text-[20px] leading-[30px] my-8 text-[#023a51] mx-6  mx-6 ">Politics Dictionary</h4>
+                                </div>
+                                <div class="container w-12/12 sm:w-[45%] lg:w-[31%] mx-auto  max-w-screen-xl rounded-lg bg-[#fff] pt-4 mt-8">
+                                    <img src="./images/PLACE-HOLDER-600x348.jpg" alt="" class="w-[90%] object-cover rounded-lg m-auto">
+                                    <h4 class="font-bold text-[20px] leading-[30px] my-8 text-[#023a51] mx-6  mx-6 ">Politics Dictionary</h4>
+                                </div>
+                                <div class="container w-12/12 sm:w-[45%] lg:w-[31%] mx-auto  max-w-screen-xl rounded-lg bg-[#fff] pt-4 mt-8">
+                                    <img src="./images/PLACE-HOLDER-600x348.jpg" alt="" class="w-[90%] object-cover rounded-lg m-auto">
+                                    <h4 class="font-bold text-[20px] leading-[30px] my-8 text-[#023a51] mx-6  mx-6 ">Politics Dictionary</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                  
+
+                    </section>
+
+
+</body>
+
+</html>

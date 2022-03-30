@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap');
+
+
+@font-face{
+    font-family: 'Manrope', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap');
+}
+
+.font-regular{
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+   
+}
+.font-light{
+    font-weight: 300;
+    font-family: 'Manrope', sans-serif;
+   
+}
+.font-bold{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    
+}
+
+.font-bold-2{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+}
+
+.style-heading:hover
+{
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.shadow-1{
+    box-shadow: 1px 0px 7px 3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 0px 7px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 0px 7px 3px rgba(0,0,0,0.75);
+}
+
+.border-yellow{
+    border: solid 2px #023a51!important;
+}
+.border-ea{
+    border: 2px solid #eaeaea!important;
+}
+.border-ea-bot{
+    border-bottom: 2px solid #eaeaea!important;
+}
+
+.cards-shadow{
+    box-shadow: 0 0 20px 0 rgb(103 122 134 / 25%)!important;
+}
+.border-ea-left{
+    border: 2px solid #eaeaea!important;
+    border-left:0px!important;
+}
+@media(max-width: 639px){
+    .border-ea-left{
+        border: 2px solid #eaeaea!important;
+        border-top: 0px!important;
+    }
+}
